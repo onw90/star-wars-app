@@ -1,10 +1,16 @@
-import { Header } from "./layout/Header"
+import { Footer } from "./layout/Footer";
+import { Header } from "./layout/Header";
 
 export const App: React.FC = () => {
-	return (
-		<div>
-			<Header/>
-			<h1>Hello there!</h1>
-		</div>
-	);
+  return (
+    <>
+      <Header />
+      <body>
+        <div>
+          <h1>Hello there!</h1>
+        </div>
+      </body>
+      <Footer />
+    </>
+  );
 };
