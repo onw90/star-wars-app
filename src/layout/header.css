@@ -18,10 +18,11 @@
 }
 
 .header-name {
-  font-family: "Roboto", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
+  margin-left: 1rem;
 }
 
 .header-container > img {
