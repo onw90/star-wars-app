@@ -9,7 +9,9 @@
   display: flex;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
   align-items: center;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -17,18 +19,38 @@
   padding: 0rem;
 }
 
-.header-name {
+.header-h1 {
   font-family: "Dosis", sans-serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
   margin-left: 1rem;
 }
 
-.header-container > img {
-  height: 10rem;
+.header-name {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-name > img {
+  width: 10rem;
 }
 
 .header-buttons {
-  display: none;
+  display: flex;
+  justify-content: center;
+  /* display: none; */
+}
+
+.header-buttons > button {
+  background-color: transparent;
+  border: none;
+  margin: 0rem 1rem;
+}
+
+.header-buttons > button > img {
+  width: 2rem;
 }
