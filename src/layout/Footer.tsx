@@ -1,8 +1,9 @@
-import "./footer.css";
 import aIcon from "./icons/a-solid.svg";
 import kIcon from "./icons/k-solid.svg";
 import eIcon from "./icons/e-solid.svg";
 import cIcon from "./icons/c-solid.svg";
+
+import "./footer.css";
 
 export const Footer: React.FC = () => {
   return (

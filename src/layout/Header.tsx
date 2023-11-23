@@ -1,9 +1,10 @@
-import "./header.css";
 import planetIcon from "./icons/planet.png";
 import userIcon from "./icons/user-astronaut-solid.svg";
 import homeIcon from "./icons/earth-africa-solid.svg";
 import logoutIcon from "./icons/logout.svg";
 import changePlanetIcon from "./icons/rocket-solid.svg";
+
+import "./header.css";
 
 export const Header: React.FC = () => {
   return (
