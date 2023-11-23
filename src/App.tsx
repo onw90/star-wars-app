@@ -1,16 +1,13 @@
-import { Footer } from "./layout/Footer";
-import { Header } from "./layout/Header";
+import { Header } from './layout/Header';
+import { Layout } from './layout/Layout';
+import { Footer } from './layout/Footer';
 
 export const App: React.FC = () => {
-  return (
-    <>
-      <Header />
-      <body>
-        <div>
-          <h1>Hello there!</h1>
-        </div>
-      </body>
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<Header />
+			<Layout />
+			<Footer />
+		</>
+	);
 };
