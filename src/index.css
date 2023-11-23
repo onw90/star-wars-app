@@ -1,0 +1,16 @@
+body {
+  height: 1000px;
+  background: linear-gradient(
+    90deg,
+    hsla(252, 100%, 10%, 1) 0%,
+    hsla(185, 78%, 21%, 1) 100%
+  );
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+body h1 {
+  margin: 0rem;
+  padding: 0rem;
+}
