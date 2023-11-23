@@ -1,5 +1,5 @@
 import "./header.css";
-import planetIcon from "./planet.png";
+import planetIcon from "./icons/planet.png";
 
 export const Header: React.FC = () => {
   return (

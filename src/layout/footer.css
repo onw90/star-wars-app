@@ -1,6 +1,5 @@
 .footer-container {
   height: 10rem;
-  /* width: 100%; */
   background: linear-gradient(
     90deg,
     hsla(252, 100%, 10%, 1) 0%,
@@ -23,7 +22,7 @@
 }
 
 .footer-question {
-  margin: 2rem 0rem 0.5rem 0rem;
+  margin: 2rem 0rem 2rem 0rem;
 }
 
 .footer-links {
@@ -31,24 +30,8 @@
   flex-direction: row;
 }
 
-.footer-links > a {
-  padding: 0.5rem 1.5rem;
-  margin-bottom: 1rem;
-
-  font-size: 0.8rem;
-  text-decoration: none;
-  color: inherit;
-}
-
-.footer-links-who {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0rem 1.5rem;
-}
-
 .links > a > img {
   height: 2rem;
   width: 2rem;
-  margin: 0rem 1rem 1rem 1rem;
+  margin: 0rem 1rem 3rem 1rem;
 }
