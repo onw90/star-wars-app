@@ -54,3 +54,39 @@
 .header-buttons > button > img {
   width: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .header-h1 {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  .header-name {
+    display: flex;
+    margin-bottom: 0rem;
+  }
+
+  .header-name > img {
+    width: 3rem;
+  }
+
+  .header-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+  }
+
+  .header-buttons > button {
+    margin: 0rem 1.5rem;
+  }
+
+  .header-buttons > button > img {
+    width: 1.5rem;
+  }
+}
